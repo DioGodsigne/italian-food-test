@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+.part1 header nav {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;  
+}
+.part1 header nav ul{
+    display: flex;
+}
+.part1 header nav ul li{
+    margin-right: 50px;
+    color: white;
+}
+.part1 header nav ul li a{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.part1 header nav ul li a:hover{
+    color: rgb(179, 179, 179);
+    transition: 0.5s;
+}
+.part1 header nav ul .lipesq .pesquisa{
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    position: relative;
+    bottom: 11px;
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-position-x: 90px;
+    background-size: 23px;
+    background-position-y: center;
+    transition: 0.5s
+}
+.part1 header nav ul .lipesq .pesquisa:hover{
+    background-color: rgb(197, 197, 197);
+    transition: 0.5s;
+    border-radius: 18px; 
+}
+.part1{
+    background-image: url(background1.png);
+    height: 635px;
+    width: 100%;  
+}
+main .sect1 .intro .title {
+    width: 517px;
+    margin-top: 30px;
+}
+main {
+    margin-left: 50px;
+}
+main .sect1 .intro h3{
+    margin-top: 40px;
+    color: white;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+}
+main .sect1 .intro button{
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    transition: 1s;
+}
+main .sect1 .intro button:hover{
+    background-color: rgb(204, 204, 204);
+    transform: translateY(-10px);
+    transition: 1s;
+}
+main .sect1 .intro p{
+    margin-top: 30px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+main .sect1 .intro h3, button p{
+   text-align: center;
+}
+main .sect1 .intro button a{
+    color: #2e3034;
+    font-weight: 900;
+    
+}
+main .sect1 {
+    display: flex;
+}
+main .sect1 .prato img{
+    width: 566px;
+    margin-left: 80px;
+}
+.branca .titlel img{
+    width: 600px;
+}
+.branca .titlel{
+    display: grid;
+    justify-content: center;
+    margin-top: 30px; 
+}
+.branca .titlel p{
+    text-align-last: center;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+}
+.branca .pratos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.branca .pratos img{
+    width: 300px;
+    transition: 1s;
+}
+.branca .pratos img:hover{
+    transform: translateY(-10px);
+    transition: 1s;
+}
+.branca .pratos h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #343434;
+    text-align: center;  
+}
+.branca .pratos p{
+    color: #343434;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+}
+.branca .pratos .text{
+    margin-top: 17px;
+}
+.branca button{
+    border-radius: 30px;
+    border: none;
+    background-color: #343434;
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+.branca button:hover{
+    background-color: #292929;
+    transform: translateY(-10px);
+    transition: 1s;  
+}
+.branca button a{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+}
+.cinza {
+    background-color: #27292c;
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+}
+.cinza .paragrafos{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: myriad-pro, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    margin-top: 50px;
+    font-size: 15px;
+}
+.cinza img{
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.cinza button{
+    border-color: white;
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+.cinza button:hover{
+    border-color: rgb(196, 196, 196);
+    transform: translateY(-10px);
+    transition: 1s;
+}
+.cinza .botao2{
+    display: flex;
+    justify-content: center;
+}
+.cinza button a{
+    color: #27292c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.branco2 .primeiralinha {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}   
+.branco2 .primeiralinha img{
+    width: 600px;  
+}
+.branco2 .primeiralinha .text1 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    color: #27292c;
+}
+.branco2 .primeiralinha .text1{
+    margin-top: 100px;
+    margin-left: 70px;  
+}
+.branco2 .primeiralinha .text1 p{
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #27292c;
+    font-size: 25px;
+    margin-top: 30px;   
+}
+.branco2 .primeiralinha button {
+    border: none;
+    background-color: #27292c;
+    width: 200px ;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+.branco2 .primeiralinha button:hover{
+    background-color: #1b1d1f;
+    transform: translateY(-10px);
+    transition: 1s;
+}
+.primeiralinha .Read {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.branco2 .segundalinha {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    justify-content: space-evenly;
+}   
+.branco2 .segundalinha img{
+    width: 600px;
+}
+.branco2 .segundalinha .text2 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    color: #27292c;
+}
+.branco2 .segundalinha .text2 p{
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #27292c;
+    font-size: 25px;
+    margin-top: 30px; 
+}
+.segundalinha .text2 .Read {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.branco2 .segundalinha button {
+    border: none;
+    background-color: #27292c;
+    width: 200px ;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+.branco2 .segundalinha button:hover{
+    background-color: #1b1d1f;
+    transform: translateY(-10px);
+    transition: 1s;
+}
+.newbackground{
+    background-image: url(background1.png);
+    width: 100%;
+    height: 900px;
+}
+.newbackground .folhastext{
+    display: grid;
+    justify-content: center;
+}
+.newbackground .folhastext p{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.newbackground .folhastext .title8{
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.newbackground .linha{
+    background-color: white;
+    width: 100px;
+    height: 6px;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+.newbackground .folhastext .imgpizza .pizza{
+    width: 800px;
+    margin-left: 300px;
+    margin-top: 80px; 
+}
+.newbackground .folhastext .imgpizza{
+    display: flex;
+    justify-content: end;
+}
+.branco3 .Lorem{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.branco3 .Lorem p {
+    font-family: 'Montserrat', sans-serif;
+    color: #27292c;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.branco3 .Lorem img{
+    width: 200px;
+    margin-left: 23px;
+}
+.branco3 .frase .p1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #27292c;
+    margin-top: 200px;
+}
+.branco3 .frase .p2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #27292c;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.cinza2{
+    background-color: #27292c;
+    width: 100%;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.cinza2 .inscricao p{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+}
+.cinza2 .inscricao h1{
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+.cinza2 .inscricao .email{
+    margin-top: 30px;
+}
+.cinza2 .inscricao .email input{
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 20px;
+    transition: 0.5s;  
+}
+.cinza2 .inscricao .email input:hover{
+    background-color: rgb(187, 187, 187);
+    transition: 0.5s;
+}
+.cinza2 .inscricao .email button{
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    background-color: #54524f;
+    width: 150px;
+    z-index: 2;
+    position: relative;
+    right: 38px;
+    bottom: -1px;
+    transition: 0.5s;
+}
+.cinza2 .inscricao .email button a{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+} 
+.cinza2 .inscricao .email button:hover{
+    background-color: #363533;
+    transition: 0.5s;
+}
+footer{
+    margin-left: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #343434;
+}
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.end .pfooter{
+    margin-top: 70px;
+}
+.end .pfooter p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.end .pfooter, h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+.ASO{
+    display: flex;
+}
+.ASO a{
+    color:#343434; 
+    font-family: 'Montserrat', sans-serif;  
+}
+.ASO ul li {
+    margin-top: 10px;
+}
+.links1f, .links2f, .links3f{
+    margin-left: 20px;
+}
+.ASO a:hover{
+    font-weight: 600;
+}
+.end .pfooter .redes-sociais{
+    display: flex;
+    margin-top: 30px;
+}
+.end .pfooter .redes-sociais img{
+    width: 30px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.end .pfooter .redes-sociais img:hover{
+    transform: translateY(-10px
+);
+    transition: 1s;
+}
+
